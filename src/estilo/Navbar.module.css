@@ -1,0 +1,25 @@
+.navbar{
+  display: flex;
+  justify-content: center;
+  background-color: var(--cor1);
+  padding: 1rem;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item{
+  margin-right: 3rem;
+}
+
+.item a{
+  color: var(--cor2);
+  text-decoration: none;
+}
+
+.item a:hover{
+  text-decoration: underline;
+}

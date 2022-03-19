@@ -1,0 +1,29 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root {
+    /* CORES */
+    --cor1: #13293d;
+    --cor2: #e8f1f2;
+    --cor3: #247ba0;
+    --cor4: #1b98e0;
+    --cor5: #006494;
+    --cor6: #e0e0e2;
+    --branco: #f1f1f1;
+    --preto: #080705;
+    /* FONTES*/
+    --fonte1: 'Oswald';
+    --fonte2: 'Poppins';
+    --fonte3: 'Noto Sans';
+    --fonte4: 'Work Sans';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
