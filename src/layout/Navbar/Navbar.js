@@ -20,7 +20,7 @@ function Navbar() {
             <a href="#projetos"> Projetos </a>
           </li>
           <li className={styles.item}>
-            <a to="#falecomigo"> Fale Conosco </a>
+            <a href="#falecomigo"> Fale Conosco </a>
           </li>
         </ul>
       </Container>
