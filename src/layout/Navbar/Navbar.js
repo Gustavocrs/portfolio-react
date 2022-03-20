@@ -17,10 +17,10 @@ function Navbar() {
             <a href="#certificados"> Certificados </a>
           </li>
           <li className={styles.item}>
-            <a href=""> Projetos </a>
+            <a href="#projetos"> Projetos </a>
           </li>
           <li className={styles.item}>
-            <a to=""> Fale Conosco </a>
+            <a to="#falecomigo"> Fale Conosco </a>
           </li>
         </ul>
       </Container>
