@@ -27,5 +27,22 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-padding-top: 50px;
+}
+
+* {
+  scrollbar-width: thin;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+  background-color: var(--cor1);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--preto);
+  border-radius: 20px;
+  border: 3px solid black;
 }
