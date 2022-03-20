@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+
+.divCertificados {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto auto;
+    height: auto;
+    background-color: var(--cor1);
+}
+
+.certificadosItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.linkCertificados:hover {
+    background-color: var(--cor5);
+}
+
+.listaCertificados {
+    display: flex;
+    width: 250px;
+    height: 100px;
+    padding: 0 20px;
+    margin: 10px;
+    font-family: var(--fonte4);
+    font-weight: bold;
+    color: var(--cor1);
+    background-color: var(--cor6);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloCertificados {
+    width: 100%;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    color: var(--cor6);
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}

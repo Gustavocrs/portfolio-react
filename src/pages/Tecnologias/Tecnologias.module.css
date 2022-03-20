@@ -1,0 +1,44 @@
+
+.divTecnologias {
+    width: 100%;
+    margin: auto auto;
+    height: auto;
+}
+
+.tecnologiasItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.divImgTecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomeTecnologias{
+    font-family: var(--fonte2);
+    font-weight: 900;
+    padding: 10px 0 0 0;
+}
+
+.imagensTecnologias {
+    width: 100px;
+    height: auto;
+    padding: 0 20px;
+    background: transparent;
+}
+
+.tituloTecnologias {
+    width: 100%;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    color: var(--cor1);
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}

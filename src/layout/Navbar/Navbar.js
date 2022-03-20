@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import styles from "../estilo/Navbar.module.css";
-import Container from "./Container";
-import '../estilo/App.css'
+import styles from "../Navbar/Navbar.module.css";
+import Container from "../Container/Container";
+import "../../App.css";
 
 function Navbar() {
   return (
@@ -9,19 +8,19 @@ function Navbar() {
       <Container>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link to="/"> Sobre </Link>
+            <a href="#sobremim"> Sobre mim</a>
           </li>
           <li className={styles.item}>
-            <Link to="/Tecnologias"> Tecnologias </Link>
+            <a href="#tecnologias"> Tecnologias </a>
           </li>
           <li className={styles.item}>
-            <Link to="/Projetos"> Projetos </Link>
+            <a href="#certificados"> Certificados </a>
           </li>
           <li className={styles.item}>
-            <Link to="/Certificados"> Certificados </Link>
+            <a href=""> Projetos </a>
           </li>
           <li className={styles.item}>
-            <Link to="/FaleConosco"> Fale Conosco </Link>
+            <a to=""> Fale Conosco </a>
           </li>
         </ul>
       </Container>

@@ -1,0 +1,35 @@
+
+.divSobre {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 450px;
+}  
+
+.fotoPerfil {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 20px black;
+    margin: 0 0 0 60px;
+}
+
+.tituloSobre {
+    color: var(--branco);
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px 0;
+    padding: 0 50px;
+}
+
+.textoSobre {
+    font-family: var(--fonte4);
+    color: var(--branco);
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 10px 50px;
+}

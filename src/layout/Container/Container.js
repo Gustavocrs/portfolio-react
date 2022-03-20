@@ -1,4 +1,4 @@
-import styles from "../estilo/Container.module.css";
+import styles from "../Container/Container.module.css";
 
 function Container(props) {
   return (

@@ -1,0 +1,119 @@
+.divFaleComigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--cor1);
+    width: 100%;
+    height: 605px;
+}
+
+.divContato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--cor1);
+}
+
+.divPerfisSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divPerfisSociaisItens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.tituloFalecomigo {
+    width: 100%;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    color: var(--cor2);
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+    background-color: var(--cor1);
+}
+
+.tituloContato,
+.perfisSociaisItens,
+.tituloPerfis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte4);
+    color: var(--cor2);
+    font-size: 16px;
+    line-height: 2;
+    width: 100%;
+}
+
+.divContatoItens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor1);
+}
+
+.inputContato {
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: var(--fonte4);
+    background-color: var(--cor2);
+}
+
+.inputContatoText {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: var(--fonte4);
+    background-color: var(--cor2);
+}
+
+.btn {
+    width: 160px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: var(--fonte4);
+    font-weight: bold;
+    background-color: var(--cor2);
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--cor4);
+    cursor: pointer;
+}
+
+.imagemSociais {
+    display: flex;
+    padding: 0 50px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    filter: invert()
+}
+
+.imagemSociais:hover {
+    cursor: pointer;
+}
