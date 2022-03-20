@@ -1,0 +1,19 @@
+.divRodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--cor1);
+    font-family: var(--fonte3);
+    color: var(--cor1);
+    font-size: 12px;
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte4);
+    color: var(--cor2);
+    font-size: 16px;
+}

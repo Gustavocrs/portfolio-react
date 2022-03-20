@@ -1,0 +1,188 @@
+.divProjetos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor2);
+    padding-bottom: 100px;
+}
+.tituloItem {
+    width: 100%;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    color: var(--cor1);
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.tituloItemCard {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-family: var(--fonte3);
+    color: var(--cor1);
+}
+
+.dataItemCard {
+    width: 100%;
+    font-size: 15px;
+    font-family: var(--fonte3);
+    text-align: center;
+    padding: 15px 0 20px 0;
+    color: var(--preto);
+}
+
+.arrasteLado {
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    width: 20px;
+    height: 25px;
+}
+
+.fonteItemCard {
+    width: 100%;
+    font-size: 12px;
+    font-family: var(--fonte3);
+    text-align: center;
+    margin: 2px auto;
+    padding: 0 0 30px 0;
+    color: var(--preto);
+}
+
+.descricaoItemCard {
+    padding: 10px;
+    height: 30px;
+    font-size: 18px;
+    font-family: var(--fonte4);
+    text-align: center;
+    color: var(--preto);
+}
+
+.tecnologiasVersoCard {
+    width: 100%;
+    font-weight: 900;
+    font-family: var(--fonte3);
+    text-align: center;
+    color: var(--preto);
+    padding: 30px 0;
+    margin: auto auto;
+}
+
+.img_itemCard {
+    width: 100%;
+    height: 180px;
+}
+
+.imagensItemCard {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    margin: 50px 0 0 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divTecnologiasCard {
+    margin: auto auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divTecIconsCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px
+}
+
+.imgTec {
+    padding: 0 15px;
+}
+
+.logoCard {
+    width: 40px;
+    height: auto;
+}
+
+.logoCard:hover {
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.flipContainer:hover .flipper,
+.flipContainer.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+div .front {
+    align-items: center;
+    justify-content: center;
+}
+
+.flipContainer,
+.front,
+.back {
+    width: 300px;
+    height: 280px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+
+/* define a velocidade da transição */
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+/* esconde o verso durante a animação */
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+
+/* frente posicionada sobre o verso */
+
+.front {
+    z-index: 2;
+    background: linear-gradient(var(--cor2) 10%, var(--cor2) 50%);
+    border: 1px solid var(--cor3);
+}
+
+
+/* verso inicialmente escondido */
+
+.back {
+    z-index: 1;
+    transform: rotateY(180deg);
+    background: linear-gradient(var(--cor2) 10%, var(--cor2) 50%);
+}

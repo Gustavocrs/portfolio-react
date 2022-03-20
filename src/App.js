@@ -8,6 +8,7 @@ import Certificados from "./pages/Certificados";
 import FaleConosco from "./pages/FaleConosco";
 
 import Navbar from "./layout/Navbar/Navbar";
+import Footer from "./layout/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Certificados />
       <Projetos />
       <FaleConosco />
+      <Footer/>
     </>
   );
 }

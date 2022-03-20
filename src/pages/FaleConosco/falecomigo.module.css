@@ -68,12 +68,13 @@
 
 .inputContato {
     width: 300px;
-    height: 25px;
+    height: 45px;
     padding: 10px;
-    margin: 5px 0;
+    margin: 2px 0;
     font-size: 16px;
     font-family: var(--fonte4);
     background-color: var(--cor2);
+    outline: 0;
 }
 
 .inputContatoText {
@@ -84,15 +85,17 @@
     font-size: 16px;
     font-family: var(--fonte4);
     background-color: var(--cor2);
+    outline: 0;
+    resize: none;
 }
 
 .btn {
-    width: 160px;
+    width: 300px;
     height: 45px;
     align-items: center;
     justify-content: center;
     padding: 15px 0;
-    margin: 10px 0;
+    margin: 10px 10px;
     font-size: 16px;
     font-family: var(--fonte4);
     font-weight: bold;
