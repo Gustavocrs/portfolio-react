@@ -53,11 +53,11 @@ export default function FaleConosco() {
         </div>
         <div className={styles.divPerfisSociais}>
           <div className={styles.divPerfisSociaisItens}>
-            <p className={styles.faleComigo, styles.perfisSociaisItens}>Gustavo Silva</p>
-            <p className={styles.faleComigo, styles.perfisSociaisItens}>
+            <p className={styles.tituloContato}>Gustavo Silva</p>
+            <p className={styles.tituloContato}>
               Desenvolvedor Front-end Júnior
             </p>
-            <p className={styles.faleComigo, styles.perfisSociaisItens}>
+            <p className={styles.tituloContato}>
               gustavocrsilva.ti@gmail.com
             </p>
           </div>

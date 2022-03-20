@@ -1,5 +1,5 @@
 import styles from "../Navbar/Navbar.module.css";
-import Container from "../Container/Container";
+
 import "../../App.css";
 
 function Navbar() {
