@@ -27,11 +27,9 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
-
-* {
   scrollbar-width: thin;
 }
+
 *::-webkit-scrollbar {
   width: 8px;
 }
