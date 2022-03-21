@@ -1,10 +1,10 @@
-import styles from "./Projetos.module.css";
+import "./Projetos.css";
 
 export default function Projetos() {
   return (
-    <section className={styles.divProjetos} id="projetos">
-      <p className={styles.tituloItem}>Projetos Realizados</p>
-      <h1>Em breve</h1>
+    <section className="divProjetos" id="projetos">
+      <p className="tituloItem">Projetos Realizados</p>
+      <h1 className="descricaoItemCard">Em breve</h1>
     </section>
   );
 }

@@ -1,17 +1,23 @@
-import { useState } from "react";
-import styles from "../Certificados/Certificados.module.css";
+import "./Certificados.css";
 import CardCertificados from "./CardCertificados";
+import dbListaCertificados from "./dbListaCertificados.json"
 
 export default function Certificados() {
 
-  return (
-    <section className={styles.divCertificados} id="certificados">
-      <p className={styles.tituloCertificados}>Certificados</p>
-      <div className={styles.certificadosItem}>
+  const index = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
 
-        {/* {lista.curso.map(x=>(
-          <CardCertificados name={x}/>
-        ))} */}
+  return (
+    <section className="divCertificados" id="certificados">
+      <p className="tituloCertificados">Certificados</p>
+      <div className="certificadosItem">
+
+        {index.map(x=>(
+          <CardCertificados 
+          key={x}
+          name={dbListaCertificados.curso[x]}
+          href={dbListaCertificados.endereco[x]}
+          />
+        ))}
 
         {/* <CardCertificados
           href={dbListaCertificados.endereco[1]}

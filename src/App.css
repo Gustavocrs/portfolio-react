@@ -27,7 +27,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scrollbar-width: thin;
+  scroll-padding-top: 50px;
 }
 
 *::-webkit-scrollbar {

@@ -1,24 +1,24 @@
-import styles from './falecomigo.module.css'
+import styles from './falecomigo.css'
 
 import Logolinkedin from '../../img/linkedin.png'
 import Logogithub from '../../img/github.png'
 
 export default function FaleConosco() {
   return (
-    <section className={styles.divFaleComigo} id="falecomigo">
-      <p className={styles.tituloFalecomigo}>Vamos bater um papo?!</p>
-      <div className={styles.divContato}>
-        <div className={styles.divContatoItens}>
-          <p className={styles.tituloContato}>
+    <section className="divFaleComigo" id="falecomigo">
+      <p className="tituloFalecomigo">Vamos bater um papo?!</p>
+      <div className="divContato">
+        <div className="divContatoItens">
+          <p className="tituloContato">
             Que tal me enviar uma mensagem?
           </p>
           <form
-            className={styles.divContatoItens}
+            className="divContatoItens"
             method="post"
             action="https://formsubmit.co/6b6a117405788d60e6e9f5e7fd379e48"
           >
             <input
-              className={styles.inputContato}
+              className="inputContato"
               id="name"
               type="text"
               placeholder="Nome"
@@ -26,7 +26,7 @@ export default function FaleConosco() {
               required
             />
             <input
-              className={styles.inputContato}
+              className="inputContato"
               id="email"
               type="email"
               placeholder="seuemail@dominio.com.br"
@@ -34,7 +34,7 @@ export default function FaleConosco() {
               required
             />
             <textarea
-              className={styles.inputContatoText}
+              className="inputContatoText"
               id="message"
               placeholder="Mensagem"
               name="message"
@@ -45,37 +45,37 @@ export default function FaleConosco() {
             <input type="hidden" name="_template" value="table" />
             <div>
             
-              <button className={styles.btn} type="submit">
+              <button className="btn" type="submit">
                 Enviar
               </button>
             </div>
           </form>
         </div>
-        <div className={styles.divPerfisSociais}>
-          <div className={styles.divPerfisSociaisItens}>
-            <p className={styles.tituloContato}>Gustavo Silva</p>
-            <p className={styles.tituloContato}>
+        <div className="divPerfisSociais">
+          <div className="divPerfisSociaisItens">
+            <p className="tituloContato">Gustavo Silva</p>
+            <p className="tituloContato">
               Desenvolvedor Front-end Júnior
             </p>
-            <p className={styles.tituloContato}>
+            <p className="tituloContato">
               gustavocrsilva.ti@gmail.com
             </p>
           </div>
-          <div className={styles.iconesPerfisSociais}>
+          <div className="iconesPerfisSociais">
             <a
               href="https://www.linkedin.com/in/gustavocrsilva/"
               target="_blank"
               rel='noreferrer'
             >
               <img
-                className={styles.imagemSociais}
+                className="imagemSociais"
                 src={Logolinkedin}
                 alt="Link para o meu Linkedin"
               />
             </a>
             <a href="https://github.com/Gustavocrs" target="_blank" rel='noreferrer'>
               <img
-                className={styles.imagemSociais}
+                className="imagemSociais"
                 src={Logogithub}
                 alt="Link para o meu Github"
               />

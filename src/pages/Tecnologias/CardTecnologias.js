@@ -1,14 +1,14 @@
-import styles from '../Tecnologias/Tecnologias.module.css';
+import './Tecnologias.css';
 
 export default function cardTecnologias(props) {
   return (
-    <div className={styles.divImgTecnologias}>
+    <div className="divImgTecnologias">
       <img
-        className={styles.imagensTecnologias}
+        className="imagensTecnologias"
         src={props.src}
         alt={props.alt}
       />
-      <p className={styles.nomeTecnologias}>{props.nomeTec}</p>
+      <p className="nomeTecnologias">{props.nomeTec}</p>
     </div>
   );
 }
