@@ -1,9 +1,9 @@
-import styles from "./Footer.module.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className={styles.divRodape}>
-      <p className={styles.rodape}>
+    <footer className="divRodape">
+      <p className="rodape">
         Copyright © - Gustavo Silva - Dev Front-end
       </p>
     </footer>
