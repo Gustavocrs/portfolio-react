@@ -2,8 +2,6 @@ import { useState } from "react";
 import styles from "../Certificados/Certificados.module.css";
 import CardCertificados from "./CardCertificados";
 
-
-
 export default function Certificados() {
 
   return (
