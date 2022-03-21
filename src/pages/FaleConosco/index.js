@@ -1,4 +1,4 @@
-import styles from './falecomigo.css'
+import './falecomigo.css'
 
 import Logolinkedin from '../../img/linkedin.png'
 import Logogithub from '../../img/github.png'
