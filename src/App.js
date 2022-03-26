@@ -1,5 +1,5 @@
 import React from "react";
-
+import 'bootstrap';
 import "./App.css";
 import Sobre from "./pages/Sobre";
 import Tecnologias from "./pages/Tecnologias";
