@@ -23,10 +23,10 @@ export default function CardProjetos(props) {
                Breve descrição do projeto
               </p>
               <div className="center">
-                <a href="#" className="btn">
+                <a className="btn">
                   Github
                 </a>
-                <a href="#" className="btn">
+                <a className="btn">
                   Projeto
                 </a>
               </div>
