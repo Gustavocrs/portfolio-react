@@ -1,37 +1,15 @@
-.divProjetos {
+.secPrincipal {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: var(--cor2);
-  height: 100vh;
   width: 100%;
-}
-.divCards {
-  display: flex;
-  border-radius: 5px;
-  height: 400px;
-  width: 1200px;
-  justify-content: center;
+  margin: auto auto;
+  height: auto;
+  background-color: var(--cor2);
+  
 }
 
-.divFrente {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height: 600px;
-  text-align: center;
-  padding: 30px;
-}
-
-.divVerso {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  text-align: center;
-  padding: 30px;
-}
-
-.titulo {
+.tituloProjetos {
+  width: 100%;
   font-weight: bold;
   font-family: var(--fonte2);
   color: var(--cor1);
@@ -40,68 +18,61 @@
   padding: 40px 0;
 }
 
-.tituloItem {
-  font-size: 20px;
-  font-family: var(--fonte2);
-  font-weight: 600;
-  margin: 10px 0 0 0;
-}
-
-.data {
-  font-size: 14px;
-  font-family: var(--fonte2);
-  font-weight: 400;
-  margin-top: 10px;
-  height: 10px;
-}
-.infos {
-    font-size: 18px;
-    font-family: var(--fonte2);
-    font-weight: 400;
-    margin-top: 10px;
-    height: 40px;
-}
-
-.divLogos {
+.divCards {
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+  border-radius: 5px;
+  width: 100vw;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  height: 450px;
+  width: 23%;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  height: 80px;
-  margin-top: 40px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.logos {
-  width: 45px;
-  height: 45px;
+.card-img-top {
+  width: auto;
+  height: 200px;
 }
 
-.logos:hover {
-  cursor: pointer;
-  width: 70px;
-  height: 70px;
-  transition: 500ms;
+.card-body{
+  height: 200px;
 }
-.divMiniImg {
+
+.tituloCard {
+  text-align: center;
+  font-family: var(--fonte2) !important;
+}
+
+.card-text {
+  font-family: var(--fonte2) !important;
+  height: 100px;
+  text-align: center;
+  }
+
+.center {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: auto auto;
+  margin: 0;
 }
-.miniImg {
-  width: 40px;
-  height: auto;
-  margin-top: 30px;
-}
-.cor {
-  background-color: var(--cor1);
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100px !important;
+  background-color: var(--cor1) !important;
+  outline: none;
+  margin: 0 10px !important;
+  font-family: var(--fonte2) !important;
+  font-weight: 400 !important;
+  color: var(--cor2) !important;
 }
 
-.imagem {
-  width: 75%;
-  height: auto;
-  align-self: center;
+.btn:hover {
+  background-color: var(--cor4) !important;
 }
