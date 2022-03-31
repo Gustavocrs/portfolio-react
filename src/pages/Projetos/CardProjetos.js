@@ -1,5 +1,3 @@
-import Imggithub from "../../img/github.png";
-import Imgpreview from "../../img/preview.png";
 import Logohtml from '../../img/html.png'
 import 'bootstrap'
 import './Projetos.css'
