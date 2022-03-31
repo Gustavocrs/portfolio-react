@@ -9,7 +9,7 @@ export default function CardProjetos(props) {
 
     <section className="secPrincipal">
       <div>
-        <h2 className="tituloProjetos">Projetos</h2>
+        <h2 className="tituloProjetos" id="projetos">Projetos</h2>
       </div>
       <div>
         <div className="divCards">
