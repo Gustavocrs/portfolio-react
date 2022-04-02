@@ -1,40 +1,29 @@
-import Logohtml from '../../img/html.png'
-import 'bootstrap'
 import './Projetos.css'
 
-export default function CardProjetos(props) {
+export default function CardProjetos({itens}) {
   return (
-
-    <section className="secPrincipal">
-      <div>
-        <h2 className="tituloProjetos" id="projetos">Projetos</h2>
-      </div>
-      <div>
-        <div className="divCards">
-          <div className="card">
-            <img
-              src={Logohtml}
-              className="card-img-top"
-              alt="Logo HTML"
-            />
-            <div className="card-body">
-              <h5 className="card-title tituloCard">Nome do Projeto</h5>
-              <p className="card-text">
-               Breve descrição do projeto
-              </p>
-              <div className="center">
-                <a href="http://github.com/gustavocrs" className="btn">
-                  Github
-                </a>
-                <a href="http://gustavocrs.github.io/portfolio" className="btn">
-                  Projeto
-                </a>
+    <>
+      {itens.map((item, index) => (
+        <div key={index}>
+          <div className="divCards">
+            <div className="card">
+              <img src={item.imagem} className="card-img-top" alt="Logo HTML" />
+              <div className="card-body">
+                <h5 className="card-title">{item.nome}</h5>
+                <p className="card-text">{item.descricao}</p>
+                <div className="divBtn">
+                  <a href={item.link_github} className="botao" target="_blank">
+                    Github
+                  </a>
+                  <a href={item.link_deploy} className="botao" target="_blank">
+                    Projeto
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-  );
+      ))}
+    </>
+  )
 }

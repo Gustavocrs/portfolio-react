@@ -1,7 +1,7 @@
 import './falecomigo.css'
 
-import Logolinkedin from '../../img/linkedin.png'
-import Logogithub from '../../img/github.png'
+import Logolinkedin from '../../img/sociais/linkedin.png'
+import Logogithub from '../../img/sociais/github.png'
 
 export default function FaleConosco() {
   return (

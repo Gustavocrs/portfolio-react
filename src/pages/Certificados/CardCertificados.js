@@ -1,14 +1,22 @@
-import "./Certificados.css";
+import './Certificados.css'
 
-export default function CardCertificados(props) {
+export default function CardCertificados({ itens }) {
+  
   return (
-    <a
-      className="linkCertificados"
-      href={props.href}
-      target="_blank"
-      rel="noreferrer"
-    >
-      <p className="listaCertificados">{props.name}</p>
-    </a>
-  );
+    <>
+    { 
+      itens.map((item, index)=>(  
+        <a
+        className="linkCertificados"
+        href={item.endereco}
+        target="_blank"
+        rel="noreferrer"
+        key={index}
+      >
+        <p className="listaCertificados">{item.curso}</p>
+      </a>
+      ))
+    }
+    </>
+  )
 }

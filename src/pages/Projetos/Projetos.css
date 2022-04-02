@@ -4,10 +4,8 @@
   width: 100%;
   margin: auto auto;
   height: auto;
-  background-color: var(--cor2);
-  
+  background-color: var(--cor2); 
 }
-
 .tituloProjetos {
   width: 100%;
   font-weight: bold;
@@ -18,61 +16,84 @@
   padding: 40px 0;
 }
 
+.divCardProjetos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .divCards {
   display: flex;
   border-radius: 5px;
-  width: 100vw;
+  margin: 0 5px;
   justify-content: center;
   margin-bottom: 30px;
 }
 
 .card {
-  height: 450px;
-  width: 23%;
+  height: 370px;
+  width: 300px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  border: 1px solid var(--cor1);
   padding: 20px;
+  background-color: var(--cor2);
 }
 
 .card-img-top {
   width: auto;
-  height: 200px;
+  height: auto;
+  max-height: 200px;
+  min-height: 140px;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .card-body{
-  height: 200px;
+  width: 100%;
+  margin: 10px;
+  padding: 0;
 }
 
-.tituloCard {
+.card-title {
   text-align: center;
-  font-family: var(--fonte2) !important;
+  font-family: var(--fonte2);
+  font-weight: 900;
+  font-size: 1.3rem;
 }
 
 .card-text {
-  font-family: var(--fonte2) !important;
+  font-family: var(--fonte2);
+  font-size: 0.9rem;
   height: 100px;
   text-align: center;
   }
 
-.center {
+.divBtn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
-.btn {
+
+.botao {
   display: flex;
   justify-content: center;
-  width: 100px !important;
-  background-color: var(--cor1) !important;
+  width: 100px;
+  background-color: var(--cor1);
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 5px;
+  font-family: var(--fonte2);
+  font-weight: 400;
+  color: var(--cor2);
   outline: none;
-  margin: 0 10px !important;
-  font-family: var(--fonte2) !important;
-  font-weight: 400 !important;
-  color: var(--cor2) !important;
 }
 
-.btn:hover {
-  background-color: var(--cor5) !important;
+.botao:hover {
+  background-color: var(--cor5);
+  color: var(--cor2);
 }
