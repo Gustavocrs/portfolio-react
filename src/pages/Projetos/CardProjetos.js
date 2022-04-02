@@ -12,10 +12,10 @@ export default function CardProjetos({itens}) {
                 <h5 className="card-title">{item.nome}</h5>
                 <p className="card-text">{item.descricao}</p>
                 <div className="divBtn">
-                  <a href={item.link_github} className="botao" target="_blank">
+                  <a href={item.link_github} className="botao" target="_blank" rel="noreferrer">
                     Github
                   </a>
-                  <a href={item.link_deploy} className="botao" target="_blank">
+                  <a href={item.link_deploy} className="botao" target="_blank" rel="noreferrer">
                     Projeto
                   </a>
                 </div>
