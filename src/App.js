@@ -5,7 +5,7 @@ import Sobre from "./pages/Sobre";
 import Tecnologias from "./pages/Tecnologias";
 import Projetos from "./pages/Projetos";
 import Certificados from "./pages/Certificados";
-import FaleConosco from "./pages/FaleConosco";
+//import FaleConosco from "./pages/FaleConosco";
 
 import Navbar from "./layout/Navbar/Navbar";
 import Footer from "./layout/Footer/Footer";
