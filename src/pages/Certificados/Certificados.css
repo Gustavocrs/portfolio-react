@@ -1,12 +1,7 @@
-a {
-    text-decoration: none;
-}
-
 .divCertificados {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: auto auto;
     height: auto;
     background-color: var(--cor1);
 }
@@ -16,7 +11,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    padding: 25px 0;
 }
 
 .linkCertificados:hover {
@@ -26,7 +21,7 @@ a {
 .listaCertificados {
     display: flex;
     width: 230px;
-    height: 100px;
+    height: 85px;
     padding: 0 10px;
     margin: 10px;
     font-family: var(--fonte4);

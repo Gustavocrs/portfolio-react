@@ -18,7 +18,7 @@ function App() {
       <Tecnologias />
       <Certificados />
       <Projetos />
-      <FaleConosco />
+      {/* <FaleConosco /> */}
       <Footer/>
     </>
   );

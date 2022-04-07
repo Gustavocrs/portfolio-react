@@ -30,11 +30,11 @@ export default function Navbar() {
             Projetos
           </a>
         </li>
-        <li className="menuItem">
+        {/* <li className="menuItem">
           <a href="#falecomigo" className="menuItemAction" id="nav-links">
             Fale comigo
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
     // <nav classNameName={navbar}>
