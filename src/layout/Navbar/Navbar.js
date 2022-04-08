@@ -1,32 +1,69 @@
-import "./Navbar.css";
+import { useState } from 'react'
+import './Navbar.css'
 
 export default function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <nav className="wrapMenu">
-      <a href="#menu" className="btnMenu btnMenu_open">
+      <a
+        href="#menu"
+        className={
+          menuOpen ? 'menuOpen btnMenu btnMenuOpen' : 'btnMenu btnMenuOpen'
+        }
+        onClick={() => setMenuOpen(true)}
+      >
         Menu
       </a>
 
-      <ul className="menu" id="menu">
-        <li className="btnMenu btnMenu_close">Sair</li>
+      <ul className={menuOpen ? 'menuOpen menu' : 'menu'} id="menu">
+        <li
+          className={
+            menuOpen ? 'menuOpen btnMenu btnMenuOpen' : 'btnMenu btnMenuClose'
+          }
+          onClick={() => setMenuOpen(false)}
+        >
+          Sair
+        </li>
 
         <li className="menuItem">
-          <a href="#sobremim" className="menuItemAction" id="nav-links">
+          <a
+            href="#sobremim"
+            className={menuOpen ? 'menuItemAction menuOpen' : 'menuItemAction '}
+            onClick={() => setMenuOpen(false)}
+            id="nav-links"
+          >
             Sobre mim
           </a>
         </li>
         <li className="menuItem">
-          <a href="#tecnologias" className="menuItemAction" id="nav-links">
+          <a
+            href="#tecnologias"
+            className={menuOpen ? 'menuItemAction menuOpen' : 'menuItemAction '}
+            onClick={() => setMenuOpen(false)}
+            id="nav-links"
+          >
             Tecnologias
           </a>
         </li>
         <li className="menuItem">
-          <a href="#certificados" className="menuItemAction" id="nav-links">
+          <a
+            href="#certificados"
+            className={menuOpen ? 'menuItemAction menuOpen' : 'menuItemAction '}
+            onClick={() => setMenuOpen(false)}
+            id="nav-links"
+          >
             Certificados
           </a>
         </li>
         <li className="menuItem">
-          <a href="#projetos" className="menuItemAction" id="nav-links">
+          <a
+            href="#projetos"
+            className={menuOpen ? 'menuItemAction menuOpen' : 'menuItemAction '}
+            onClick={() => setMenuOpen(false)}
+            id="nav-links"
+          >
             Projetos
           </a>
         </li>
@@ -37,24 +74,5 @@ export default function Navbar() {
         </li> */}
       </ul>
     </nav>
-    // <nav classNameName={navbar}>
-    //   <ul classNameName={list}>
-    //     <li classNameName={item}>
-    //       <a href="#sobremim"> Sobre mim</a>
-    //     </li>
-    //     <li classNameName={item}>
-    //       <a href="#tecnologias"> Tecnologias </a>
-    //     </li>
-    //     <li classNameName={item}>
-    //       <a href="#certificados"> Certificados </a>
-    //     </li>
-    //     <li classNameName={item}>
-    //       <a href="#projetos"> Projetos </a>
-    //     </li>
-    //     <li classNameName={item}>
-    //       <a href="#falecomigo"> Fale Comigo </a>
-    //     </li>
-    //   </ul>
-    // </nav>
-  );
+  )
 }

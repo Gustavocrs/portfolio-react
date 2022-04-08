@@ -38,3 +38,24 @@ mark{
     padding: 10px 50px;
     margin: 0;
 }
+
+@media screen and (max-width: 840px) {
+
+    .divSobre {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        margin: 0
+    }  
+
+    .tituloSobre{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+        
+    .fotoPerfil{
+        margin: 0;
+    }
+}

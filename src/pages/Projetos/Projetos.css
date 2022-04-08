@@ -98,3 +98,11 @@
   color: var(--cor2);
   transition: 500ms; 
 }
+
+@media screen and (max-width: 840px) {
+
+  .tituloProjetos{
+    font-size: 1.5rem;
+  }
+  
+}
