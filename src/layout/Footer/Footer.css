@@ -17,6 +17,11 @@
     margin: 15px; 
 }
 
+.iconContato:hover{
+    color: var(--cor5);
+    transition: 500ms; 
+}
+
 .rodape {
     align-items: center;
     font-family: var(--fonte4);

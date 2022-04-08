@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+    padding-bottom: 10px;
     background-color: var(--cor1);
 }
 
@@ -27,6 +28,7 @@
     font-family: var(--fonte4);
     font-weight: 400;
     font-size: 1rem;
+    font-weight: 800;
     color: var(--cor1);
     background-color: var(--cor6);
     text-align: center;
