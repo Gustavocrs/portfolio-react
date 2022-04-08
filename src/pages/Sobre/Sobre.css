@@ -9,8 +9,9 @@ mark{
     background-color: var(--cor1);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 420px;
+    height: auto;
     margin-top: 26px;
+    padding: 10px 0;
 }  
 
 .fotoPerfil {
