@@ -1,3 +1,7 @@
+mark{
+    background-color: var(--cor4);
+    border-radius: 5px;
+}
 
 .divSobre {
     display: flex;
@@ -5,7 +9,7 @@
     background-color: var(--cor1);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 325px;
+    height: 420px;
     margin-top: 26px;
 }  
 
