@@ -18,15 +18,14 @@ export default function Sobre() {
           <p className='textoSobre'><mark>Outros conhecimentos:</mark> Figma, SQL, Postgres e Oracle; Git e
           GitHub. </p>
           <p className='textoSobre'>Busco diariamente aperfeiçoar meus conhecimentos, seja com
-          pesquisas ou com cursos de especialização, como pode ser visualizado
-          na seção de Certificados. Atualmente, sou gestor em uma empresa do
-          ramo de Metrologia, onde atuo desde 2008, passando por todos os cargos
-          administrativos até o atual, respondendo diretamente a direção.
+          pesquisas ou cursos de especialização, como pode ser visto na seção de Certificados. 
+          Atualmente, sou gestor em uma empresa do ramo de Metrologia, onde atuo desde 2008, passando 
+          por todos os cargos administrativos até o atual, respondendo diretamente a direção.
         </p>
 
         <p className="textoSobre">
-          Considero me bastante dinâmico e tenho bastante facilidade em aprender, 
-          possuo uma boa capacidade de abstração, o que me ajuda a traduzir a necessidade
+          Considero-me dinâmico e tenho bastante facilidade em aprender, 
+          possuo boa capacidade de abstração, o que me ajuda a traduzir a necessidade
           do cliente em código.
         </p>
       </div>
