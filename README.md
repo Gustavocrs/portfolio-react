@@ -3,7 +3,9 @@
 <img src="https://img.shields.io/badge/STATUS%20-Em%20contru%C3%A7%C3%A3o-yellow"/>
 
 <h3>Update em Portfólio para React</h3>
-<p>Projeto de treinamento em React.</p>
+<p>Portfólio profissional para apresentação dos projetos realizados, tecnologias conhecidas e demonstração dos conhecimentos obtidos.
+Responsividade para todas os tamanhos de telas.
+Projeto realizado em REACT</p>
 
 <h3>Acesse o projeto</h3><a href="https://gustavocrs.github.io/portfolio-react/">Clique Aqui</a> 
 
