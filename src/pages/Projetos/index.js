@@ -32,7 +32,7 @@ export default function Projetos() {
       imagem: Tip_Calc,
       nome: 'TIP CALCULATOR APP',
       descricao:
-        'Calculadora de gorgetas, baseado no projeto do site Frontend Mentor para divisão de conta entre grupos, com a gorgeta calculada automaticamente.',
+        'Calculadora de gorgetas, baseado no projeto do site Frontend Mentor para divisão de conta entre grupos, com o valor calculada automaticamente.',
       link_github: 'https://github.com/Gustavocrs/tip-calculator-app',
       link_deploy: 'https://gustavocrs.github.io/tip-calculator-app/',
     },
@@ -40,7 +40,7 @@ export default function Projetos() {
       imagem: Huddle_Land_Page,
       nome: 'HUDDLE LANDING PAGE',
       descricao:
-        'Projeto realizado como treinamento, utilizando como base o projeto do site Frontend Mentor.',
+        'Projeto realizado como treinamento, utilizando como base o site Frontend Mentor.',
       link_github: 'https://github.com/Gustavocrs/huddle-landing-page',
       link_deploy: 'https://gustavocrs.github.io/huddle-landing-page/',
     },
@@ -56,7 +56,7 @@ export default function Projetos() {
       imagem: Testimonials_Grid,
       nome: 'Testimonials Grid',
       descricao:
-        'Tela de login e tela de cadastro, realizado para treinamento.',
+        'Projeto realizado como treinamento, utilizando como base o site Frontend Mentor.',
       link_github: 'https://github.com/Gustavocrs/testimonials-grid/',
       link_deploy: 'https://gustavocrs.github.io/testimonials-grid/',
     },
@@ -64,7 +64,7 @@ export default function Projetos() {
       imagem: Single_Price_Grid,
       nome: 'Single Price Grid',
       descricao:
-        'Projeto realizado como treinamento, utilizando como base o projeto do site Frontend Mentor.',
+        'Projeto realizado como treinamento, utilizando como base o site Frontend Mentor.',
       link_github: 'https://github.com/Gustavocrs/single-price-grid',
       link_deploy: 'https://gustavocrs.github.io/single-price-grid/',
     },
@@ -72,7 +72,7 @@ export default function Projetos() {
       imagem: Column_Preview_Card,
       nome: 'Column Preview Card',
       descricao:
-        'Projeto realizado como treinamento, utilizando como base o projeto do site Frontend Mentor.',
+        'Projeto realizado como treinamento, utilizando como base o site Frontend Mentor.',
       link_github: 'https://github.com/Gustavocrs/column-preview-card',
       link_deploy: 'https://gustavocrs.github.io/column-preview-card/',
     },
