@@ -1,5 +1,5 @@
 import './Footer.css'
-import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsWhatsapp, BsFillTelephoneForwardFill } from 'react-icons/bs'
 import { FiMail } from 'react-icons/fi'
 
 export default function Footer() {
@@ -26,6 +26,14 @@ export default function Footer() {
         <a href="mailto:gustavocrsilva.ti@gmail.com" rel="noreferrer">
           <FiMail className="iconContato" />
         </a>
+        <a
+        href="tel:21987384859" rel="noreferrer"/>
+          <BsFillTelephoneForwardFill className="iconContato"/>
+        </a>
+       <a
+        href="https://api.whatsapp.com/send/?phone=5521987384859&text&app_absent=0" rel="noreferrer"/>
+          <BsWhatsapp className="iconContato"/>
+        </a>    
       </div>
       <div>
         <p className="rodape">Copyright © - Gustavo Silva - Dev Front-end</p>
