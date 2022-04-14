@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7799239.css",
-    "main.js": "/static/js/main.7d090412.js",
+    "main.js": "/static/js/main.39c89b3a.js",
     "static/media/testimonials-grid.jpg": "/static/media/testimonials-grid.6b6a259e512999ebacc0.jpg",
     "static/media/gustavo.jpeg": "/static/media/gustavo.27338260180160cf59d3.jpeg",
     "static/media/huddle-landing-page.jpg": "/static/media/huddle-landing-page.378d3892e8f1172d8682.jpg",
@@ -19,10 +19,10 @@
     "static/media/react3.svg": "/static/media/react3.524a011be2f26f2bc4058904dc2d4103.svg",
     "index.html": "/index.html",
     "main.a7799239.css.map": "/static/css/main.a7799239.css.map",
-    "main.7d090412.js.map": "/static/js/main.7d090412.js.map"
+    "main.39c89b3a.js.map": "/static/js/main.39c89b3a.js.map"
   },
   "entrypoints": [
     "static/css/main.a7799239.css",
-    "static/js/main.7d090412.js"
+    "static/js/main.39c89b3a.js"
   ]
 }
