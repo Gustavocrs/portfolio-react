@@ -33,7 +33,7 @@ export default function Footer() {
        <a
         href="https://api.whatsapp.com/send/?phone=5521987384859&text&app_absent=0" rel="noreferrer"/>
           <BsWhatsapp className="iconContato"/>
-        </a>    
+       </a>    
       </div>
       <div>
         <p className="rodape">Copyright © - Gustavo Silva - Dev Front-end</p>
