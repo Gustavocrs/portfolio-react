@@ -7,7 +7,7 @@
 Responsividade para todas os tamanhos de telas.
 Projeto realizado em REACT</p>
 
-<h3>Acesse o projeto</h3><a href="https://gustavocrs.github.io/portfolio-react/">Clique Aqui</a> 
+<h3>Acesse o projeto</h3><a href="https://gustavocrs.tech">Clique Aqui</a> 
 
 <div><p><h3>Linguagens</h3></p>
 
