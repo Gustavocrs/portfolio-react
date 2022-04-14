@@ -45,7 +45,7 @@
 
 .card:hover{
   transition: 500ms;
-  box-shadow: 5px 5px 5px var(--cor5);
+  box-shadow: 5px 5px 5px var(--cor1);
   position: relative;
   top: -5px;
 }
