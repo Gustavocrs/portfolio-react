@@ -6,7 +6,7 @@ import Webchat_React_Login from '../../img/projetos/Webchat_React_login_desktop.
 import Tip_Calc from '../../img/projetos/tip_calculator.jpg'
 import Huddle_Land_Page from '../../img/projetos/huddle-landing-page.jpg'
 import Login_Cadastro from '../../img/projetos/lekas.jpg'
-import Testmonials_Grid from '../../img/projetos/testimonials-grid.jpg'
+import Testimonials_Grid from '../../img/projetos/testimonials-grid.jpg'
 import Single_Price_Grid from '../../img/projetos/single-price-grid.jpg'
 import Column_Preview_Card from '../../img/projetos/column-preview-card.jpg'
 
@@ -54,7 +54,7 @@ export default function Projetos() {
     },
     {
       imagem: Testimonials_Grid,
-      nome: 'Testmonials Grid',
+      nome: 'Testimonials Grid',
       descricao:
         'Tela de login e tela de cadastro, realizado para treinamento.',
       link_github: 'https://github.com/Gustavocrs/testimonials-grid/',
