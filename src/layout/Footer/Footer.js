@@ -27,11 +27,11 @@ export default function Footer() {
           <FiMail className="iconContato" />
         </a>
         <a
-        href="tel:21987384859" rel="noreferrer"/>
+        href="tel:21987384859" rel="noreferrer">
           <BsFillTelephoneForwardFill className="iconContato"/>
         </a>
        <a
-        href="https://api.whatsapp.com/send/?phone=5521987384859&text&app_absent=0" rel="noreferrer"/>
+        href="https://api.whatsapp.com/send/?phone=5521987384859&text&app_absent=0" rel="noreferrer">
           <BsWhatsapp className="iconContato"/>
        </a>    
       </div>
