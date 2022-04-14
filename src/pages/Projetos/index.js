@@ -53,7 +53,7 @@ export default function Projetos() {
       link_deploy: 'https://gustavocrs.github.io/lekas/',
     },
     {
-      imagem: Testmonials_Grid,
+      imagem: Testimonials_Grid,
       nome: 'Testmonials Grid',
       descricao:
         'Tela de login e tela de cadastro, realizado para treinamento.',
