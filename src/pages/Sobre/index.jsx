@@ -13,10 +13,8 @@ export default function Sobre() {
           Olá! Me chamo Gustavo Silva, sou formado em Análise e Desenvolvimento
           de Sistemas, com ênfase em Desenvolvimento Front-end. 
           Trabalho com:</p>
-          <p className='textoSobre'><mark>Front-end:</mark> HTML5, CSS3, Flexbox, Grid, SASS, Bootstrap, JavaScript,
-          React.</p>
-          <p className='textoSobre'><mark>Outros conhecimentos:</mark> Figma, SQL, Postgres e Oracle; Git e
-          GitHub. </p>
+          <p className='textoSobre'><mark>Front-end:</mark> React, Styled-Components, Hooks, Routes, Axios, JavaScript, HTML5, CSS3, Bootstrap, Flexbox, Grid e Sass.</p>
+          <p className='textoSobre'><mark>Outros conhecimentos:</mark> Figma, SQL, Postgres e Oracle; Git e GitHub. </p>
           <p className='textoSobre'>Busco diariamente aperfeiçoar meus conhecimentos, seja com
           pesquisas ou cursos de especialização, como pode ser visto na seção de Certificados. 
           Atualmente sou gestor em uma empresa do ramo de Metrologia, onde atuo desde 2008, passando 
