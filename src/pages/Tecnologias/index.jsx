@@ -6,6 +6,7 @@ import Logosass from "../../img/tecs/sass.png";
 import Logobootstrap from "../../img/tecs/bootstrap.png";
 import Logojs from "../../img/tecs/js.png";
 import Logoreact from "../../img/tecs/react3.svg";
+import Logostyled from "../../img/tecs/styled.png";
 
 import CardTecnologias from "./CardTecnologias";
 
@@ -20,6 +21,7 @@ export default function Tecnologias() {
         <CardTecnologias src={Logosass} alt="Logo SASS" nomeTec="SASS" />
         <CardTecnologias src={Logobootstrap} alt="Logo Bootstrap" nomeTec="Bootstrap" />
         <CardTecnologias src={Logoreact} alt="Logo React" nomeTec="React" />
+        <CardTecnologias src={Logostyled} alt="Logo React" nomeTec="Styled Components" />
       </div>
     </section>
   );
