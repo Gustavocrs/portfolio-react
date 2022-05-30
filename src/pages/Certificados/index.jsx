@@ -8,6 +8,7 @@ export default function Certificados() {
     {
       id: 1,
       curso: "React - Abstraindo seu CSS com Styled Components",
+      endereco: "https://cursos.alura.com.br/certificate/2d23d5df-cb02-4748-9f41-1dc595fbd14f",
     },
     {
       id: 2,
