@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.78c21d31.css",
-    "main.js": "/static/js/main.1f062ae6.js",
+    "main.js": "/static/js/main.850d219d.js",
     "static/media/testimonials-grid.jpg": "/static/media/testimonials-grid.6b6a259e512999ebacc0.jpg",
     "static/media/gustavo.jpeg": "/static/media/gustavo.27338260180160cf59d3.jpeg",
     "static/media/huddle-landing-page.jpg": "/static/media/huddle-landing-page.378d3892e8f1172d8682.jpg",
     "static/media/lekas.jpg": "/static/media/lekas.52b064558fec05febf05.jpg",
     "static/media/tip_calculator.jpg": "/static/media/tip_calculator.1b7b922fffd15bab7dc2.jpg",
     "static/media/React_Weather_desktop.png": "/static/media/React_Weather_desktop.a3d27b3786429f5d0e4e.png",
-    "static/media/Webchat_React_login_desktop.jpg": "/static/media/Webchat_React_login_desktop.145712f7b316c228780f.jpg",
     "static/media/column-preview-card.jpg": "/static/media/column-preview-card.1e8e9d4ac281e5381b96.jpg",
     "static/media/single-price-grid.jpg": "/static/media/single-price-grid.f889d235adc012251909.jpg",
     "static/media/styled.png": "/static/media/styled.fedb29267dd012426021.png",
@@ -20,10 +19,10 @@
     "static/media/react3.svg": "/static/media/react3.524a011be2f26f2bc4058904dc2d4103.svg",
     "index.html": "/index.html",
     "main.78c21d31.css.map": "/static/css/main.78c21d31.css.map",
-    "main.1f062ae6.js.map": "/static/js/main.1f062ae6.js.map"
+    "main.850d219d.js.map": "/static/js/main.850d219d.js.map"
   },
   "entrypoints": [
     "static/css/main.78c21d31.css",
-    "static/js/main.1f062ae6.js"
+    "static/js/main.850d219d.js"
   ]
 }
