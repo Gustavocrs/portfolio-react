@@ -2,7 +2,7 @@ import './Projetos.css'
 import CardProjetos from './CardProjetos'
 
 import React_Weather from '../../img/projetos/React_Weather_desktop.png'
-import Webchat_React_Login from '../../img/projetos/Webchat_React_login_desktop.jpg'
+/*import Webchat_React_Login from '../../img/projetos/Webchat_React_login_desktop.jpg'*/
 import Tip_Calc from '../../img/projetos/tip_calculator.jpg'
 import Huddle_Land_Page from '../../img/projetos/huddle-landing-page.jpg'
 import Login_Cadastro from '../../img/projetos/lekas.jpg'
@@ -28,14 +28,14 @@ export default function Projetos() {
       link_github: 'https://github.com/Gustavocrs/tip-calculator-app',
       link_deploy: 'https://gustavocrs.github.io/tip-calculator-app/',
     },
-    {
+   /* {
       imagem: Webchat_React_Login,
       nome: 'WEBCHAT REACT',
       descricao:
         'Projeto realizado durante a imersão react da Alura - Fev 2022.',
       link_github: 'https://github.com/Gustavocrs/webchat-react/',
       link_deploy: 'https://webchat-react.vercel.app/',
-    },
+    },*/
     {
       imagem: Huddle_Land_Page,
       nome: 'HUDDLE LANDING PAGE',
