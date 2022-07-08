@@ -2,13 +2,13 @@ import './Projetos.css'
 import CardProjetos from './CardProjetos'
 
 import React_Weather from '../../img/projetos/React_Weather_desktop.png'
-/*import Webchat_React_Login from '../../img/projetos/Webchat_React_login_desktop.jpg'*/
 import Tip_Calc from '../../img/projetos/tip_calculator.jpg'
 import Huddle_Land_Page from '../../img/projetos/huddle-landing-page.jpg'
 import Login_Cadastro from '../../img/projetos/lekas.jpg'
+/*import Webchat_React_Login from '../../img/projetos/Webchat_React_login_desktop.jpg'
 import Testimonials_Grid from '../../img/projetos/testimonials-grid.jpg'
 import Single_Price_Grid from '../../img/projetos/single-price-grid.jpg'
-import Column_Preview_Card from '../../img/projetos/column-preview-card.jpg'
+import Column_Preview_Card from '../../img/projetos/column-preview-card.jpg'*/
 
 export default function Projetos() {
   const projetos = [
