@@ -51,7 +51,7 @@ export default function Projetos() {
         'Tela de login e tela de cadastro, realizado para treinamento.',
       link_github: 'https://github.com/Gustavocrs/lekas/',
       link_deploy: 'https://gustavocrs.github.io/lekas/',
-    },
+    }/*,
     {
       imagem: Testimonials_Grid,
       nome: 'Testimonials Grid',
@@ -75,7 +75,7 @@ export default function Projetos() {
         'Projeto realizado como treinamento, utilizando como base o site Frontend Mentor.',
       link_github: 'https://github.com/Gustavocrs/column-preview-card',
       link_deploy: 'https://gustavocrs.github.io/column-preview-card/',
-    },
+    },*/
   ]
 
   return (
