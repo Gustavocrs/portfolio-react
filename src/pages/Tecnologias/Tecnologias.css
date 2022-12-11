@@ -30,6 +30,7 @@
   height: auto;
   padding: 0 20px;
   background: transparent;
+  filter: drop-shadow(3px 3px 3px #1f1f1f);
 }
 
 .tituloTecnologias {
