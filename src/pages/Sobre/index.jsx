@@ -1,5 +1,5 @@
 import './Sobre.css'
-import FotoPerfil from '../../img/gustavo.jpeg'
+import FotoPerfil from '../../img/Eu.jpg'
 
 export default function Sobre() {
   return (
