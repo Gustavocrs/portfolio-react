@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.3311d570.css",
+    "main.js": "/portfolio-react/static/js/main.f7d6f4f4.js",
+    "static/media/Eu.jpg": "/portfolio-react/static/media/Eu.abeef55082166de7e771.jpg",
+    "static/media/huddle-landing-page.jpg": "/portfolio-react/static/media/huddle-landing-page.378d3892e8f1172d8682.jpg",
+    "static/media/lekas.jpg": "/portfolio-react/static/media/lekas.52b064558fec05febf05.jpg",
+    "static/media/tip_calculator.jpg": "/portfolio-react/static/media/tip_calculator.1b7b922fffd15bab7dc2.jpg",
+    "static/media/React_Weather_desktop.png": "/portfolio-react/static/media/React_Weather_desktop.a3d27b3786429f5d0e4e.png",
+    "static/media/styled.png": "/portfolio-react/static/media/styled.fedb29267dd012426021.png",
+    "static/media/html.png": "/portfolio-react/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css.png": "/portfolio-react/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/portfolio-react/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/menu.svg": "/portfolio-react/static/media/menu.f5cdf762d863c8d28b34.svg",
+    "static/media/react-colored.svg": "/portfolio-react/static/media/react-colored.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "index.html": "/portfolio-react/index.html",
+    "static/media/bootstrap5.svg": "/portfolio-react/static/media/bootstrap5.98585727bcfe0b1555649ec9bbab236c.svg",
+    "static/media/mui.svg": "/portfolio-react/static/media/mui.87264df237ee700ba78bb58ff701a6d3.svg",
+    "main.3311d570.css.map": "/portfolio-react/static/css/main.3311d570.css.map",
+    "main.f7d6f4f4.js.map": "/portfolio-react/static/js/main.f7d6f4f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3311d570.css",
+    "static/js/main.f7d6f4f4.js"
+  ]
+}
