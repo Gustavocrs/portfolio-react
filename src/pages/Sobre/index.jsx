@@ -2,6 +2,7 @@ import "./Sobre.css";
 import FotoPerfil from "../../img/Eu.jpg";
 
 export default function Sobre() {
+ 
   return (
     <section className="divSobre" id="sobremim">
       <img className="fotoPerfil" src={FotoPerfil} alt="Foto de perfil" />
